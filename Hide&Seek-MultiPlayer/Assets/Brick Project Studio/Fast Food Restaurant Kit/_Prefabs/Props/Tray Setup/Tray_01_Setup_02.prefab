@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7477848490035891628}
   - component: {fileID: 1545979908499886881}
   - component: {fileID: 4696219069758545503}
-  - component: {fileID: 8237043191738338560}
+  - component: {fileID: 8210309577554049081}
   m_Layer: 0
   m_Name: Tray_01_Setup_02
   m_TagString: Untagged
@@ -29,6 +29,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 689532476756008063}
   - {fileID: 1716805497173925264}
@@ -59,6 +60,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -89,8 +91,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8237043191738338560
-MeshCollider:
+--- !u!65 &8210309577554049081
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -99,10 +101,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5375076251676618723, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.89295095, y: 0.06088575, z: 0.5416708}
+  m_Center: {x: 0, y: 0.030442864, z: 0}
 --- !u!1001 &2628162827642589628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -372,7 +373,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big Nuggets_01
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5966257722184367113, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1962511365086979547, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 2532994008792201478, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 2970200798978592466, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 490178276308294026, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 5179039115302916836, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 7555609138703394695, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 8157728626945374382, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
 --- !u!4 &4826663476389831715 stripped
 Transform:

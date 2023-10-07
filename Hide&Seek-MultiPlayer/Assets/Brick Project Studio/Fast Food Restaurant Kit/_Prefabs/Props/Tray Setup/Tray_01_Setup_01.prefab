@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6009554221678371263}
   - component: {fileID: 2437840091907342130}
   - component: {fileID: 8470369782012506700}
-  - component: {fileID: 5111380005809316115}
+  - component: {fileID: 1704506285537057170}
   m_Layer: 0
   m_Name: Tray_01_Setup_01
   m_TagString: Untagged
@@ -29,6 +29,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4409349554918551660}
   - {fileID: 2554613753340244355}
@@ -59,6 +60,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -89,8 +91,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5111380005809316115
-MeshCollider:
+--- !u!65 &1704506285537057170
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -99,10 +101,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5375076251676618723, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.89295095, y: 0.06088575, z: 0.5416708}
+  m_Center: {x: 0, y: 0.030442864, z: 0}
 --- !u!1001 &264955043426931747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -282,7 +283,50 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big Nuggets_01
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 3890175238457899083, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4623843003903738024, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328817339974899502, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824869040354383766, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7829539116614311711, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8648588559210293449, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1962511365086979547, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 2532994008792201478, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 2970200798978592466, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 490178276308294026, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 5179039115302916836, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 7555609138703394695, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 6824869040354383766, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 3890175238457899083, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 4623843003903738024, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 7829539116614311711, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 8648588559210293449, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 6328817339974899502, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 1879207046051401751, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 1179539509642387854, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 6050932672831768533, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 8060435321150071481, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 630528348565316371, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 1915458639739944937, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
+    - {fileID: 8157728626945374382, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bef0b6331b6ddcc4e80368fbb8f8fade, type: 3}
 --- !u!4 &8528514736415836208 stripped
 Transform:
@@ -420,6 +464,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6009554221678371263}
     m_Modifications:
+    - target: {fileID: 2090040801920869807, guid: ce8fe15fe218b10459d08e5bd9dbc628, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3133957896949509619, guid: ce8fe15fe218b10459d08e5bd9dbc628, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -468,8 +516,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big Burger_01
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8807652359459738714, guid: ce8fe15fe218b10459d08e5bd9dbc628, type: 3}
+    - {fileID: 2090040801920869807, guid: ce8fe15fe218b10459d08e5bd9dbc628, type: 3}
+    - {fileID: 5041467659111862892, guid: ce8fe15fe218b10459d08e5bd9dbc628, type: 3}
+    - {fileID: 2770795440009803620, guid: ce8fe15fe218b10459d08e5bd9dbc628, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ce8fe15fe218b10459d08e5bd9dbc628, type: 3}
+--- !u!1 &2078137753183171398 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8522134538286590355, guid: ce8fe15fe218b10459d08e5bd9dbc628, type: 3}
+  m_PrefabInstance: {fileID: 7679679098085923541}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8280915423829143422
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078137753183171398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.26122716, y: 0.09971209, z: 0.2532011}
+  m_Center: {x: 0.000000014901161, y: 0.025326006, z: 0.12511332}
 --- !u!4 &4750661441199273766 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3133957896949509619, guid: ce8fe15fe218b10459d08e5bd9dbc628, type: 3}
