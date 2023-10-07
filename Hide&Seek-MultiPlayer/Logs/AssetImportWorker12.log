@@ -222,3 +222,25 @@ Received Import Request.
   path: Assets/Toon Furniture/Materials/Vase_2.mat
   artifactKey: Guid(48789c7005e3790408daf876242fb920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Toon Furniture/Materials/Vase_2.mat using Guid(48789c7005e3790408daf876242fb920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd919cc824baa2d5f095265ec1e5987') in 0.009328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 566.217404 seconds.
+  path: Assets/Shelf/Shelf.prefab
+  artifactKey: Guid(44cbea998ea1f864eb33c8e657c2c39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shelf/Shelf.prefab using Guid(44cbea998ea1f864eb33c8e657c2c39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16a7b3936f2690c59102c0cf64ac4a2') in 0.023815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Shelf/shelf_S.tga
+  artifactKey: Guid(d56cfd901eb0ccb43a9ffd7c622d0d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shelf/shelf_S.tga using Guid(d56cfd901eb0ccb43a9ffd7c622d0d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fdbb889e97341ef2573c9e46589fc0') in 0.059581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Shelf/shelf_N.tga
+  artifactKey: Guid(46243a0509e74bb45a2893e2df132275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shelf/shelf_N.tga using Guid(46243a0509e74bb45a2893e2df132275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162a04f6fdac1b6d28babcc9107a1bd1') in 0.033782 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

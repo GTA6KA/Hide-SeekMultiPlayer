@@ -330,3 +330,43 @@ Received Import Request.
   path: Assets/PolyWorkshop/CardboardBoxesSet/Models
   artifactKey: Guid(f1a0f813e3c75984a9a8e4f677697c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/PolyWorkshop/CardboardBoxesSet/Models using Guid(f1a0f813e3c75984a9a8e4f677697c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0014cf85a70fc275d73f06663b18298') in 0.001773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 254.312031 seconds.
+  path: Assets/Shelf/shelf.fbx
+  artifactKey: Guid(521c1d2ea014271479067ced5e16de0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shelf/shelf.fbx using Guid(521c1d2ea014271479067ced5e16de0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc60da6402e07a8caf68f03b7643ae9') in 0.019204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001511 seconds.
+  path: Assets/Shelf/Shelf_D1.prefab
+  artifactKey: Guid(65fae4c12edf3e04785d6ad3242c2777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shelf/Shelf_D1.prefab using Guid(65fae4c12edf3e04785d6ad3242c2777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af625cce547f46f27b5af25a39ff22a1') in 0.016941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Shelf/shelf_D1.fbx
+  artifactKey: Guid(dc1cd74d2208845428c5f2f23fc08b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shelf/shelf_D1.fbx using Guid(dc1cd74d2208845428c5f2f23fc08b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab47343f3d535ada0b3384a0c12039f') in 0.043709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Shelf/Shelf_D2.prefab
+  artifactKey: Guid(711f980f44dfefa40ac7c31354b34786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shelf/Shelf_D2.prefab using Guid(711f980f44dfefa40ac7c31354b34786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c963a371162760d9ac2e81bdeea2954c') in 0.014254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Shelf/shelf_D.tga
+  artifactKey: Guid(ce704d9941b406b479afcf033b8ece91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shelf/shelf_D.tga using Guid(ce704d9941b406b479afcf033b8ece91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bae49e70c7ae40b7f57b385d2424f80') in 0.011496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Shelf/shelf_D2.fbx
+  artifactKey: Guid(06c5fd0b3bfcd664a8cde1c4675f9fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shelf/shelf_D2.fbx using Guid(06c5fd0b3bfcd664a8cde1c4675f9fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e30cfe932abc9b66c30ae3d7dd5f127') in 0.042501 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
