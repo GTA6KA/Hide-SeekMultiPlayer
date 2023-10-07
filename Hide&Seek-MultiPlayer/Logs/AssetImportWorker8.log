@@ -306,3 +306,37 @@ Received Import Request.
   path: Assets/Toon Furniture/Textures/Decoration_Books_1_2.png
   artifactKey: Guid(c871c8177c9582444b32092b7b7c6810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Toon Furniture/Textures/Decoration_Books_1_2.png using Guid(c871c8177c9582444b32092b7b7c6810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929a611c0ef0b5032a8e74568ebaea55') in 0.028151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3775.096159 seconds.
+  path: Assets/Toon Furniture/Models/Vase_1.fbx
+  artifactKey: Guid(bd09b17863ebbf74c82083bf72572ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Vase_1.fbx using Guid(bd09b17863ebbf74c82083bf72572ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64c02658ad7ef7b5f15290ef424105a') in 0.047857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Furniture/Models/Refrigerator.fbx
+  artifactKey: Guid(30ea37132d76e624eacbf2b75cb5f50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Refrigerator.fbx using Guid(30ea37132d76e624eacbf2b75cb5f50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b901b3066459676c6ddc67902657b3d8') in 0.018167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Furniture/Models/Queen_Bed_2.fbx
+  artifactKey: Guid(db90ebe75a417854aaaf8a09147e7676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Queen_Bed_2.fbx using Guid(db90ebe75a417854aaaf8a09147e7676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd597f4498179a2812c8ceacb3ef128') in 0.053117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon Furniture/Models/Refrigerator_2.fbx
+  artifactKey: Guid(fd86dd3bb815de54fb8f5d719048bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Refrigerator_2.fbx using Guid(fd86dd3bb815de54fb8f5d719048bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1475cc495953d68b02161d67df7118') in 0.013268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Furniture/Models/Single_Bed_1.fbx
+  artifactKey: Guid(bcca84a2658e08241be17e9ed78e7453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Single_Bed_1.fbx using Guid(bcca84a2658e08241be17e9ed78e7453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398cefcfe6b00f5218ee7b5bb4b2f22d') in 0.022262 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

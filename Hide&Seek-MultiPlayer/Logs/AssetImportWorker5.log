@@ -227,3 +227,545 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60163.135999 seconds.
+  path: Assets/HQ Laptop/Laptop_black_off.prefab
+  artifactKey: Guid(1e96745f2b6e038469341687cbb28188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Laptop_black_off.prefab using Guid(1e96745f2b6e038469341687cbb28188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037c34d17aac40b91208c7f9be7bd632') in 0.331844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HQ Laptop/Laptop_white_off.prefab
+  artifactKey: Guid(71d7c0c979d468641afeec46db205a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Laptop_white_off.prefab using Guid(71d7c0c979d468641afeec46db205a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bf7af9016c8889a6955e23233ba108') in 0.045210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.539129 seconds.
+  path: Assets/HQ Laptop/Textures/diffuse_w.tga
+  artifactKey: Guid(65503308321999e4c9fed4a479afa857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Textures/diffuse_w.tga using Guid(65503308321999e4c9fed4a479afa857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda9151c40c7ae6c9b4a69d3b3f8823d') in 0.207768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HQ Laptop/Textures/specular.tga
+  artifactKey: Guid(4d23e1479b0747d4bb11597f2b854429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Textures/specular.tga using Guid(4d23e1479b0747d4bb11597f2b854429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b9400605913a895f0ddb476314e72e') in 0.006963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HQ Laptop/Textures/e.tga
+  artifactKey: Guid(6e3b20038b92b78429c2d54e7f481b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Textures/e.tga using Guid(6e3b20038b92b78429c2d54e7f481b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199b07a879ae0361dd296aa18a089442') in 0.007000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.489201 seconds.
+  path: Assets/HQ Laptop/Textures/e.tga
+  artifactKey: Guid(6e3b20038b92b78429c2d54e7f481b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Textures/e.tga using Guid(6e3b20038b92b78429c2d54e7f481b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1046f7afa22ab2c6a40c7fbc8d91e98') in 0.017184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.091383 seconds.
+  path: Assets/HQ Laptop/Laptop_black_off.prefab
+  artifactKey: Guid(1e96745f2b6e038469341687cbb28188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Laptop_black_off.prefab using Guid(1e96745f2b6e038469341687cbb28188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198ca1a2855cf6d25153b7bba476e502') in 0.011060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HQ Laptop/Laptop_white_off.prefab
+  artifactKey: Guid(71d7c0c979d468641afeec46db205a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Laptop_white_off.prefab using Guid(71d7c0c979d468641afeec46db205a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de756f624f8257de596ca69c0bbce4d') in 0.037569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.779723 seconds.
+  path: Assets/HQ Laptop/Laptop_black_off.prefab
+  artifactKey: Guid(1e96745f2b6e038469341687cbb28188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Laptop_black_off.prefab using Guid(1e96745f2b6e038469341687cbb28188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944219ae4ef19ac67c55a3ed6661de91') in 0.008346 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002107 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\MyGitHub\Hide-SeekMultiPlayer\Hide&Seek-MultiPlayer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\MyGitHub\Hide-SeekMultiPlayer\Hide&Seek-MultiPlayer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.680 seconds
+Domain Reload Profiling:
+	ReloadAssembly (681ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (523ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (215ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.3 MB). Loaded Objects now: 3679.
+Memory consumption went from 121.8 MB to 120.5 MB.
+Total: 2.286900 ms (FindLiveObjects: 0.161700 ms CreateObjectMapping: 0.121300 ms MarkObjects: 1.804800 ms  DeleteObjects: 0.198200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003798 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\MyGitHub\Hide-SeekMultiPlayer\Hide&Seek-MultiPlayer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\MyGitHub\Hide-SeekMultiPlayer\Hide&Seek-MultiPlayer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Domain Reload Profiling:
+	ReloadAssembly (673ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (516ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.3 MB). Loaded Objects now: 3682.
+Memory consumption went from 121.8 MB to 120.5 MB.
+Total: 2.217600 ms (FindLiveObjects: 0.163700 ms CreateObjectMapping: 0.072300 ms MarkObjects: 1.783900 ms  DeleteObjects: 0.196700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5096.484881 seconds.
+  path: Assets/PolyWorkshop/CardboardBoxesSet/Prefabs
+  artifactKey: Guid(824d080e6c9907849883addb9ed797c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyWorkshop/CardboardBoxesSet/Prefabs using Guid(824d080e6c9907849883addb9ed797c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007bcc8dca7eb15ce179b3468365a7ad') in 0.008058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.080916 seconds.
+  path: Assets/PolyWorkshop/CardboardBoxesSet/Prefabs/cardboardBox_01.prefab
+  artifactKey: Guid(84fa1372da0bc1849a3f058e3cad16eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyWorkshop/CardboardBoxesSet/Prefabs/cardboardBox_01.prefab using Guid(84fa1372da0bc1849a3f058e3cad16eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15bc2bd33daf127979e9446ad186909') in 0.155230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/PolyWorkshop/CardboardBoxesSet/Prefabs/cardboardBox_03.prefab
+  artifactKey: Guid(efbc7aaed080d31418251812fc4cfad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyWorkshop/CardboardBoxesSet/Prefabs/cardboardBox_03.prefab using Guid(efbc7aaed080d31418251812fc4cfad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b766a0764f80326c4a1d01cdde835b81') in 0.006930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.031465 seconds.
+  path: Assets/Toon Furniture/Models/Ball_1_1.fbx
+  artifactKey: Guid(77ac052cdde4bce4b9c521de187308df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Ball_1_1.fbx using Guid(77ac052cdde4bce4b9c521de187308df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2138b7d41d5d37c3b7863df04e9c5b99') in 0.106682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Furniture/Models/Couch_1.fbx
+  artifactKey: Guid(ac59d41bde6224c4089a0cfbf902d645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Couch_1.fbx using Guid(ac59d41bde6224c4089a0cfbf902d645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31de2564e4c05c420a19f25224c1d76') in 0.020054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Furniture/Models/Counter_2.fbx
+  artifactKey: Guid(83bfbbc6ac9032c46a97d37cbca3d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Counter_2.fbx using Guid(83bfbbc6ac9032c46a97d37cbca3d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2db18ef2c84ce1571df17eb01aac63e') in 0.016789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Furniture/Models/Coffee_Table_3.fbx
+  artifactKey: Guid(45276210d7d92ae439d4f9ba0fd6f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Coffee_Table_3.fbx using Guid(45276210d7d92ae439d4f9ba0fd6f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1409bb0cd199ac3f53e5c01516f16890') in 0.016871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon Furniture/Models/House_Plant_1_1.fbx
+  artifactKey: Guid(93b7804c0d2944540afe34ed14ff76d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/House_Plant_1_1.fbx using Guid(93b7804c0d2944540afe34ed14ff76d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24809bfdc5251040f7cadc012d7d7e5') in 0.076270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Furniture/Prefabs/Books_1_4.prefab
+  artifactKey: Guid(569b91127553a1041a6d6aa2e81bf80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Books_1_4.prefab using Guid(569b91127553a1041a6d6aa2e81bf80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a451de8e2f95d37be4794e1b083fd638') in 0.015210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolyWorkshop/CardboardBoxesSet/Models/cardboardBox_02.fbx
+  artifactKey: Guid(8a07748a10d783d4abb6dbd7272e6ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyWorkshop/CardboardBoxesSet/Models/cardboardBox_02.fbx using Guid(8a07748a10d783d4abb6dbd7272e6ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427881d08b4e9238dbe59d460ff7fae2') in 0.008699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toon Furniture/Models/Decoration_Books_1_1.fbx
+  artifactKey: Guid(e287253ea90ccd04fb310bdbe13c1550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Decoration_Books_1_1.fbx using Guid(e287253ea90ccd04fb310bdbe13c1550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a866644ff3a506caca0fccfdfa22a9ab') in 0.015648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Toon Furniture/Models/Books_1.fbx
+  artifactKey: Guid(02ca65ab740714a419148b75fac70719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Books_1.fbx using Guid(02ca65ab740714a419148b75fac70719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0dccf1e810f91b028923dd05fd7fc1') in 0.055234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toon Furniture/Models/Chair_8.fbx
+  artifactKey: Guid(b2d48f69e426f3c41b473408129c689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_8.fbx using Guid(b2d48f69e426f3c41b473408129c689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef8bad682b7d521d86e2bbacf24b88a') in 0.012598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Furniture/Models/Counter_2_1.fbx
+  artifactKey: Guid(ae9314f65922b7b42b043064aeaaa155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Counter_2_1.fbx using Guid(ae9314f65922b7b42b043064aeaaa155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffb5e988755547db5094f41f52a5fe5') in 0.018082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Toon Furniture/Prefabs/Couch_1.prefab
+  artifactKey: Guid(57a32613b8338fb46b75889d19358690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Couch_1.prefab using Guid(57a32613b8338fb46b75889d19358690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4fa3b3957d2ca35c6f338aa0e8faac') in 0.008349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Toon Furniture/Prefabs/Books_1_3.prefab
+  artifactKey: Guid(1d01d3e47aa094e46a9b21e9bfe34386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Books_1_3.prefab using Guid(1d01d3e47aa094e46a9b21e9bfe34386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934b0a7c3246a42c56aaf68b5530cce2') in 0.008119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Furniture/Prefabs/Chair_8.prefab
+  artifactKey: Guid(d6caea8253c81d34bb7c579c61127646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Chair_8.prefab using Guid(d6caea8253c81d34bb7c579c61127646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668bd93ba2beccd891cac54360628c7c') in 0.007223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolyWorkshop/CardboardBoxesSet/Models/cardboardBox_03.fbx
+  artifactKey: Guid(8bf2bd9ec7d102c48a617d4ba4efbc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyWorkshop/CardboardBoxesSet/Models/cardboardBox_03.fbx using Guid(8bf2bd9ec7d102c48a617d4ba4efbc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a31c35ed2bf94f117bdc0f7222e30e') in 0.009511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Furniture/Models/Coffee_Table_4.fbx
+  artifactKey: Guid(8b77ab8a65e9c9e4ba013ba2868ef6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Coffee_Table_4.fbx using Guid(8b77ab8a65e9c9e4ba013ba2868ef6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f4c6e1d2049d10caf33dcd53885599') in 0.015483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Furniture/Prefabs/Ball_1.prefab
+  artifactKey: Guid(4945551f5e101604ab8cd71442e62a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Ball_1.prefab using Guid(4945551f5e101604ab8cd71442e62a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a512a1ef41834a7781e4124062c945') in 0.006418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Furniture/Prefabs/Chair_9.prefab
+  artifactKey: Guid(b006dd3bb62abd14a83157791fb647ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Chair_9.prefab using Guid(b006dd3bb62abd14a83157791fb647ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1e911e20382f13404eb14c9f34ed3a') in 0.008482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Furniture/Prefabs/Chair_3.prefab
+  artifactKey: Guid(2bed2b2c0943e36459952282ba5f7292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Chair_3.prefab using Guid(2bed2b2c0943e36459952282ba5f7292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea44d2b6a82624fd9446dbefde7eb61') in 0.008103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Furniture/Models/Chair_1.fbx
+  artifactKey: Guid(fafae49f08dbf0b4c82fbf9d5efda973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_1.fbx using Guid(fafae49f08dbf0b4c82fbf9d5efda973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6597858f99dd93ef66b5d500399046') in 0.014608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HQ Laptop/Mesh/Laptop.FBX
+  artifactKey: Guid(f2678f35f5f886a4bb86ab5152116294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Mesh/Laptop.FBX using Guid(f2678f35f5f886a4bb86ab5152116294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8271a4998b0c24cfe92533333491e3f') in 0.014100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Furniture/Prefabs/BookCase_1.prefab
+  artifactKey: Guid(2e56118484113a44faa3c8e83481b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/BookCase_1.prefab using Guid(2e56118484113a44faa3c8e83481b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b87c49e407a3c12e6fc0fa3b288ecf') in 0.006169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Furniture/Prefabs/Chair_1.prefab
+  artifactKey: Guid(6f2b08c1ec2e79f4688cdc292da8ff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Chair_1.prefab using Guid(6f2b08c1ec2e79f4688cdc292da8ff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8d760c8a972a935965324b95e153e9') in 0.006649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Furniture/Models/Chair_2.fbx
+  artifactKey: Guid(0c18f0ffd4318a149bd680cdf60d0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_2.fbx using Guid(0c18f0ffd4318a149bd680cdf60d0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fdc97a78ae32c885bac55c8881ac1f') in 0.014025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Furniture/Prefabs/Counter_2_1.prefab
+  artifactKey: Guid(322de118bfa5ec4418f29255f2bdeac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Counter_2_1.prefab using Guid(322de118bfa5ec4418f29255f2bdeac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b881ccc52881a00524a8cd9c25fd700f') in 0.007074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Furniture/Models/Chair_9.fbx
+  artifactKey: Guid(7eb169ca98be6744db6423d236b0e90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_9.fbx using Guid(7eb169ca98be6744db6423d236b0e90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9553897c027d28f510789f4b1f3ba93') in 0.013016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Furniture/Models/Chair_5.fbx
+  artifactKey: Guid(57715435b4fec704fa35cec6763c28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_5.fbx using Guid(57715435b4fec704fa35cec6763c28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429d6609b9e20df5dfbe81fe7f8c4dd4') in 0.013673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toon Furniture/Models/Chair_3.fbx
+  artifactKey: Guid(56143fa81708d6647bc92eab52aa58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_3.fbx using Guid(56143fa81708d6647bc92eab52aa58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184fa3f17617887a32dc00ed7138887b') in 0.013398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.889307 seconds.
+  path: Assets/Toon Furniture/Prefabs/Headboard_1_2.prefab
+  artifactKey: Guid(8a0b1c6fad6341742bc53e359b2eb97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Headboard_1_2.prefab using Guid(8a0b1c6fad6341742bc53e359b2eb97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7494864c634c6318f6b1139ba0ae7b9') in 0.020882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.954410 seconds.
+  path: Assets/Toon Furniture/Prefabs/ModularCounter_3.prefab
+  artifactKey: Guid(e8e3d84b4df91a24892ed822cd330e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/ModularCounter_3.prefab using Guid(e8e3d84b4df91a24892ed822cd330e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e584e4c198a65751af72dd7e349c3517') in 0.014673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.267622 seconds.
+  path: Assets/Toon Furniture/Prefabs/Pillow_1.prefab
+  artifactKey: Guid(1fcc8ec3f56125644a57945c32cc1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Pillow_1.prefab using Guid(1fcc8ec3f56125644a57945c32cc1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abbc1a769366e7f99159f69b0bbb5f7') in 0.016976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon Furniture/Prefabs/Refrigerator_1.prefab
+  artifactKey: Guid(cae965229ed2dc64396613399ba974d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Refrigerator_1.prefab using Guid(cae965229ed2dc64396613399ba974d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c397512aea607dbf12c676e7493842f0') in 0.046559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.327791 seconds.
+  path: Assets/Toon Furniture/Prefabs/Sink_1.prefab
+  artifactKey: Guid(59799fa2671678946a502e2ca01da4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Sink_1.prefab using Guid(59799fa2671678946a502e2ca01da4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3bbc913b064735a46d4bd3ee90c75d') in 0.020273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.463770 seconds.
+  path: Assets/Toon Furniture/Prefabs/Vase_2.prefab
+  artifactKey: Guid(e82e7ed6a84cc6740b35f4cc13493d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Vase_2.prefab using Guid(e82e7ed6a84cc6740b35f4cc13493d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c39f3cc0f919aa0e8d22f64f6bd87dd') in 0.012284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.430379 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineInfiniteTrackNoShadow.png
+  artifactKey: Guid(69ff79f863a32ad44a9497d4896d9d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineInfiniteTrackNoShadow.png using Guid(69ff79f863a32ad44a9497d4896d9d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f755258bee3fcfd1f29e9426ad4bf2ff') in 0.023044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.371915 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Metal_Brushed_01_N.png
+  artifactKey: Guid(28ff0b5cb9b51034a977bc2116ddfe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset/BA_Metal_Brushed_01_N.png using Guid(28ff0b5cb9b51034a977bc2116ddfe2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7044884659eb3c6e63ef42d82b7d6bd') in 0.010658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_refresh@2x.png
+  artifactKey: Guid(602b72d4617c3694aa94419fc1b68e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_refresh@2x.png using Guid(602b72d4617c3694aa94419fc1b68e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671776979fe67911e6b51a0a9c59bccc') in 0.025716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.943642 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonDisabled@2x.png
+  artifactKey: Guid(fd194f75fe3d7ca4488fa775ae832fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonDisabled@2x.png using Guid(fd194f75fe3d7ca4488fa775ae832fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d50047996842df5bb24c6a91f126ce') in 0.008186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMuteButtonEnabled.png
+  artifactKey: Guid(ac5017dfbeee42347b3b45ecc572674e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMuteButtonEnabled.png using Guid(ac5017dfbeee42347b3b45ecc572674e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eaadde6ed40423b737e49679df740b8') in 0.017315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMuteButtonDisabled.png
+  artifactKey: Guid(6ab002208ec290544b44bc263dc58a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMuteButtonDisabled.png using Guid(6ab002208ec290544b44bc263dc58a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ba47dc3455a0ae5e64356fab102262') in 0.009752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackCurvesButtonDisabled@2x.png
+  artifactKey: Guid(1f3ea4caa6e0ec74388e4d7d16690e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackCurvesButtonDisabled@2x.png using Guid(1f3ea4caa6e0ec74388e4d7d16690e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4c41c7d85a324a84c44bce0131a4bf') in 0.016158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonEnabled@2x.png
+  artifactKey: Guid(6192986415256ca47a97a97507406f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonEnabled@2x.png using Guid(6192986415256ca47a97a97507406f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58487e2c90ba2605beacb4456232232') in 0.015209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonDisabled.png
+  artifactKey: Guid(b3644a971cca0bd4eb357cb9aca4dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonDisabled.png using Guid(b3644a971cca0bd4eb357cb9aca4dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca4f0c77541369476a82968b918798c') in 0.027587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonDisabled@2x.png
+  artifactKey: Guid(db15c78579dee4a4db85f392634c8ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonDisabled@2x.png using Guid(db15c78579dee4a4db85f392634c8ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f8601f897669fffcf3381434530b40') in 0.007018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonEnabled.png
+  artifactKey: Guid(0e5ba0f04df278944a8f5a62f64f5aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonEnabled.png using Guid(0e5ba0f04df278944a8f5a62f64f5aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5b772f38418c42b458d7f72b367865') in 0.016858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.428377 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonDisabled@2x.png
+  artifactKey: Guid(7c05578092876a0458b8b480269aef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonDisabled@2x.png using Guid(7c05578092876a0458b8b480269aef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b80ba8d9b11cb808f40f070a80cf278') in 0.020676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonDisabled.png
+  artifactKey: Guid(f0f8ff8921b22a74a8c79d955ace248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonDisabled.png using Guid(f0f8ff8921b22a74a8c79d955ace248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765dd64ab818eaf496ac9208de08e550') in 0.015901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonEnabled@2x.png
+  artifactKey: Guid(9e541b6dcfb77d34481f69b3d62d0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonEnabled@2x.png using Guid(9e541b6dcfb77d34481f69b3d62d0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5ba840378cc2727eb6f4a79d0fb898') in 0.008915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.294208 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonDisabled@2x.png
+  artifactKey: Guid(6fb5cabb85ba3794682b16eba19440cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonDisabled@2x.png using Guid(6fb5cabb85ba3794682b16eba19440cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1265a404413a79b80fac82ef8d039fc1') in 0.012923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled.png
+  artifactKey: Guid(33a52b41b4de5874ca7da1da32067e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled.png using Guid(33a52b41b4de5874ca7da1da32067e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d66b437f738ca7c6cd9af5cf16c18b') in 0.017353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000885 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonDisabled.png
+  artifactKey: Guid(5216b1b48296ef345ad2d2ec43105bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonDisabled.png using Guid(5216b1b48296ef345ad2d2ec43105bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888acd6128dcbc0b023a4623c86f0424') in 0.014175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonEnabled@2x.png
+  artifactKey: Guid(8fdae4ac756ed6047b01021ff0cc3ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonEnabled@2x.png using Guid(8fdae4ac756ed6047b01021ff0cc3ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba41488de18bd692030c2dd7c9d6a8f3') in 0.006999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonDisabled@2x.png
+  artifactKey: Guid(6091f9516d23100479c03bca26138bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonDisabled@2x.png using Guid(6091f9516d23100479c03bca26138bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02c7cee67b291294632651bd505e8ec') in 0.017230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.987348 seconds.
+  path: Assets/Toon Furniture/Textures/BookCase_1_1.png
+  artifactKey: Guid(922731efb5ca41240adc2348ab4c0aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Textures/BookCase_1_1.png using Guid(922731efb5ca41240adc2348ab4c0aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f620540c2e35cdc02fb76e8cdfb2aa') in 0.010978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Furniture/Materials/BookCase_2.mat
+  artifactKey: Guid(d0088e45804523549867166fd4706b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/BookCase_2.mat using Guid(d0088e45804523549867166fd4706b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a610d307c0d6dac79492eff4bd86b6') in 0.026572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Furniture/Textures/Decoration_Books_1_1.png
+  artifactKey: Guid(7de86d53e67b1954ba56d17d62b16d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Textures/Decoration_Books_1_1.png using Guid(7de86d53e67b1954ba56d17d62b16d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6cdb098451078fd8a999db436e7f61') in 0.011637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Furniture/Textures/Books_1.png
+  artifactKey: Guid(91768c11d28f9ef46861154a0e7ae4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Textures/Books_1.png using Guid(91768c11d28f9ef46861154a0e7ae4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20afa009645f907d9fb68cd4c74e844') in 0.008474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Furniture/Textures/BooksCase_2_Normal.png
+  artifactKey: Guid(3886a21cc6a1ce0498a3598da0836288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Textures/BooksCase_2_Normal.png using Guid(3886a21cc6a1ce0498a3598da0836288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3498f10ce0085411bbde6abbb9d5eec6') in 0.009952 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

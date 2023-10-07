@@ -270,3 +270,37 @@ Received Import Request.
   path: Assets/Toon Furniture/Materials/DecorativeBooks_1.mat
   artifactKey: Guid(761ca3351a82bc94ba96936c37084ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Toon Furniture/Materials/DecorativeBooks_1.mat using Guid(761ca3351a82bc94ba96936c37084ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb7269001f50d284083dad6e972eead') in 0.063756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3775.079064 seconds.
+  path: Assets/Toon Furniture/Models/Vase_2.fbx
+  artifactKey: Guid(b03d5f3f2eca98d48b2313818063bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Vase_2.fbx using Guid(b03d5f3f2eca98d48b2313818063bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5757923fc0ad47ad12867b28ae041c98') in 0.100701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon Furniture/Models/Pillows_1.fbx
+  artifactKey: Guid(bc7c26d9e5732fb4e9694d56f647dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Pillows_1.fbx using Guid(bc7c26d9e5732fb4e9694d56f647dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd876b88897ed5699bdbdb10bd5267510') in 0.023478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Furniture/Models/Table_1.fbx
+  artifactKey: Guid(6def73f8311645b47a2d3ae4d6afb91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Table_1.fbx using Guid(6def73f8311645b47a2d3ae4d6afb91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5b8a60e2ec89f0b360b33c65ec996c') in 0.012366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Furniture/Models/Sink.fbx
+  artifactKey: Guid(e83052825161ca9489eb21555ff606d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Sink.fbx using Guid(e83052825161ca9489eb21555ff606d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65a7451d8a7692d6a7252adca35f304') in 0.013201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon Furniture/Models/Queen_Bed_1.fbx
+  artifactKey: Guid(46ee326d6f660104da37854bc4722d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Queen_Bed_1.fbx using Guid(46ee326d6f660104da37854bc4722d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f387cad2d01e1e0a1e68561fbd2eab3c') in 0.026481 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
