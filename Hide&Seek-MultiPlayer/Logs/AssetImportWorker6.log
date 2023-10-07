@@ -227,3 +227,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60163.135785 seconds.
+  path: Assets/HQ Laptop/Laptop_black.prefab
+  artifactKey: Guid(35e7ce7e1bb8eeb4f8e896fdfa8176db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Laptop_black.prefab using Guid(35e7ce7e1bb8eeb4f8e896fdfa8176db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47d4b7a50a17d560970f09730c7cf39') in 0.327032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HQ Laptop/Laptop_white.prefab
+  artifactKey: Guid(fec0b93bb0c53f443bf3177dd2a03d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Laptop_white.prefab using Guid(fec0b93bb0c53f443bf3177dd2a03d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a15552d8d3e67e51b381a4105bdf5b1') in 0.048250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.541598 seconds.
+  path: Assets/HQ Laptop/Textures/diffuse_d.tga
+  artifactKey: Guid(94d8d5732cdfa2b40a5431f6e55df43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Textures/diffuse_d.tga using Guid(94d8d5732cdfa2b40a5431f6e55df43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b3aaa64094848cb2c2a7197be8cfcd') in 0.207496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HQ Laptop/Textures/normal.tga
+  artifactKey: Guid(72a44c93823b9bc45949ffaf9ef3b0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Textures/normal.tga using Guid(72a44c93823b9bc45949ffaf9ef3b0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05baf86a9236a4ade9a79d50412be6de') in 0.019304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.145761 seconds.
+  path: Assets/HQ Laptop/Textures/diffuse_w.tga
+  artifactKey: Guid(65503308321999e4c9fed4a479afa857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Textures/diffuse_w.tga using Guid(65503308321999e4c9fed4a479afa857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078ed010556dce70d23c3fe7b4b4f8df') in 0.007292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.316555 seconds.
+  path: Assets/HQ Laptop/Textures/diffuse_d.tga
+  artifactKey: Guid(94d8d5732cdfa2b40a5431f6e55df43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Textures/diffuse_d.tga using Guid(94d8d5732cdfa2b40a5431f6e55df43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68e86f2712cfc17b5660e44e1225b3b') in 0.013873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HQ Laptop/Textures/specular.tga
+  artifactKey: Guid(4d23e1479b0747d4bb11597f2b854429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Textures/specular.tga using Guid(4d23e1479b0747d4bb11597f2b854429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a42b0a73a5e8c36a5e7f7048b47f6d') in 0.018806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.086894 seconds.
+  path: Assets/HQ Laptop/Laptop_black.prefab
+  artifactKey: Guid(35e7ce7e1bb8eeb4f8e896fdfa8176db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Laptop/Laptop_black.prefab using Guid(35e7ce7e1bb8eeb4f8e896fdfa8176db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e50f3d9d2cfa77e5dbe77745bbd6f9') in 0.011945 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
