@@ -15,7 +15,7 @@ D:/Unity/Projects/MyGitHub/Hide-SeekMultiPlayer/Hide&Seek-MultiPlayer
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-63394
+62557
 Successfully changed project path to: D:/Unity/Projects/MyGitHub/Hide-SeekMultiPlayer/Hide&Seek-MultiPlayer
 D:/Unity/Projects/MyGitHub/Hide-SeekMultiPlayer/Hide&Seek-MultiPlayer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Unity/Projects/MyGitHub/Hide-SeekMultiPlayer/Hide&Seek-MultiPlayer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22316] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 391922187 [EditorId] 391922187 [Version] 1048832 [Id] WindowsEditor(7,GTA6KA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12312] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 4195505919 [EditorId] 4195505919 [Version] 1048832 [Id] WindowsEditor(7,GTA6KA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22316] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 391922187 [EditorId] 391922187 [Version] 1048832 [Id] WindowsEditor(7,GTA6KA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12312] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 4195505919 [EditorId] 4195505919 [Version] 1048832 [Id] WindowsEditor(7,GTA6KA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 61.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.001668 seconds.
+Registered in 0.001349 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 53.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.432 seconds
+- Completed reload, in  0.426 seconds
 Domain Reload Profiling:
-	ReloadAssembly (433ms)
+	ReloadAssembly (426ms)
 		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (312ms)
-			LoadAssemblies (56ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (306ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (77ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (180ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (181ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
+				RefreshPlugins (55ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadAttributes (87ms)
 				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,472 +109,53 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002818 seconds.
+Registered in 0.002438 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\MyGitHub\Hide-SeekMultiPlayer\Hide&Seek-MultiPlayer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\MyGitHub\Hide-SeekMultiPlayer\Hide&Seek-MultiPlayer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.660 seconds
+- Completed reload, in  0.720 seconds
 Domain Reload Profiling:
-	ReloadAssembly (661ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (721ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (516ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (566ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (175ms)
+			SetupTypeCache (185ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (227ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (158ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.3 MB). Loaded Objects now: 3661.
-Memory consumption went from 120.2 MB to 118.9 MB.
-Total: 3.144600 ms (FindLiveObjects: 0.203300 ms CreateObjectMapping: 0.135900 ms MarkObjects: 2.486100 ms  DeleteObjects: 0.317900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 27798.570054 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Antique.mat
-  artifactKey: Guid(4a3c4e9ae9b122e449659fdb803fb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Antique.mat using Guid(4a3c4e9ae9b122e449659fdb803fb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffec6ca396a2c40c49b9256c14eb6562') in 0.108571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Burger_01.mat
-  artifactKey: Guid(3ffc7efcfca73924a8503cb7e43e27f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Burger_01.mat using Guid(3ffc7efcfca73924a8503cb7e43e27f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33d6aa48ed627f8eda2db3fcc35debd') in 0.022366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Fries_01.mat
-  artifactKey: Guid(ce86f78e396e61e40b27785cc5a86af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Fries_01.mat using Guid(ce86f78e396e61e40b27785cc5a86af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8927a2be4c68939863851f896af02948') in 0.010335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_FD_Light.mat
-  artifactKey: Guid(e477bfc1e66d67442860ffdbe09525c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_FD_Light.mat using Guid(e477bfc1e66d67442860ffdbe09525c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37eaf1226e5595d5b792f8a5ceb2a14a') in 0.007927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Kiosk_Light.mat
-  artifactKey: Guid(6d2d32ee5127de94dbf5ec0c71160192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Kiosk_Light.mat using Guid(6d2d32ee5127de94dbf5ec0c71160192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49526c881a001e27ed16b88a8647ee6a') in 0.007944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Nugget_01.mat
-  artifactKey: Guid(6e04f376c1fc2104f9fc364760fc4f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Nugget_01.mat using Guid(6e04f376c1fc2104f9fc364760fc4f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e17c71f3310fc829bc24f9116fd854e') in 0.006574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Models/Burger_01.fbx
-  artifactKey: Guid(b9c054b445d458c45bcb601fd368e786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Models/Burger_01.fbx using Guid(b9c054b445d458c45bcb601fd368e786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a5fcd9d7d70ad51120356365f4c117') in 0.138115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Burger_01.mat
-  artifactKey: Guid(f74fcd32b5747ea47864481461c17d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Burger_01.mat using Guid(f74fcd32b5747ea47864481461c17d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf6e397b6466a81a43020665a85911f') in 0.007912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Leather_01.mat
-  artifactKey: Guid(0656c89128e147645951f2c0649b10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Leather_01.mat using Guid(0656c89128e147645951f2c0649b10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc9bb8ec144c825c96414ff4bf5cf23') in 0.011203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brick mute 02.mat
-  artifactKey: Guid(099e69089d2c47044b06273bff53533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brick mute 02.mat using Guid(099e69089d2c47044b06273bff53533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3522b5c0ae7a628eaf0c82a069fe4d') in 0.179529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Knob and Key.mat
-  artifactKey: Guid(50dd338fb2540fa4aa15639a529736ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Knob and Key.mat using Guid(50dd338fb2540fa4aa15639a529736ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eacef1491f181c1b11de6169457fea6') in 0.007550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Brushed_01.mat
-  artifactKey: Guid(fe522d7b1289c4345b686fc29ee51adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Brushed_01.mat using Guid(fe522d7b1289c4345b686fc29ee51adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccdac49cd90005873db2eead15ae123') in 0.006918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055559 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BA_Ceiling Light_01.fbx
-  artifactKey: Guid(f10ecbc237630d9469cea29121d074f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BA_Ceiling Light_01.fbx using Guid(f10ecbc237630d9469cea29121d074f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1ba727dea177a84ff5581e67c56f2f') in 0.018605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit BA_01.fbx
-  artifactKey: Guid(65c4e0d1191656a43a436373673c91f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit BA_01.fbx using Guid(65c4e0d1191656a43a436373673c91f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d319aff7d28ad7d3cba184d9e53d07') in 0.053764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Exterior_03.fbx
-  artifactKey: Guid(39d59b6b89252814494c963f97ed892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Exterior_03.fbx using Guid(39d59b6b89252814494c963f97ed892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f34d98f9faaa8ad247cdba31393d186') in 0.025231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior Updated_01.fbx
-  artifactKey: Guid(013043932069e224e90b516d38cdab48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior Updated_01.fbx using Guid(013043932069e224e90b516d38cdab48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7898f371f63ff19438d755ed26ad22f4') in 0.066894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior - 01.fbx
-  artifactKey: Guid(8537129dc3fbbe44186add4eea186b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Interior - 01.fbx using Guid(8537129dc3fbbe44186add4eea186b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e944ca3d1a0fe3390a676ecb438352c9') in 0.081031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Legacy/office chair.fbx
-  artifactKey: Guid(0156872a951ba6e44a3a8596040789c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Legacy/office chair.fbx using Guid(0156872a951ba6e44a3a8596040789c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ebad04c6f437ccf18873eaa357f9b7') in 0.046273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.497757 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BA_Ceiling Light_01.prefab
-  artifactKey: Guid(4f5fea46d0c567446b768005952642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BA_Ceiling Light_01.prefab using Guid(4f5fea46d0c567446b768005952642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45dae10e097a8b4a66a08334f70f993b') in 0.009285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Big Nuggets_01.prefab
-  artifactKey: Guid(bef0b6331b6ddcc4e80368fbb8f8fade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Big Nuggets_01.prefab using Guid(bef0b6331b6ddcc4e80368fbb8f8fade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75aa0d713b42f4a53d191a61e9b135e4') in 0.009524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Seating/FFK_Chair_01_01.prefab
-  artifactKey: Guid(bc65cd5b9c7ae234d8fc13b5b8eecd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Seating/FFK_Chair_01_01.prefab using Guid(bc65cd5b9c7ae234d8fc13b5b8eecd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3526271424c1ac79873d4f90148e51') in 0.017865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Int_Ext/ExtInt_FFK_Wall_04_01.prefab
-  artifactKey: Guid(d9c4e4719d7f3af46bc76b0585fe3f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Int_Ext/ExtInt_FFK_Wall_04_01.prefab using Guid(d9c4e4719d7f3af46bc76b0585fe3f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcd11cd444f010f6d4be326f7c539a1') in 0.319930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Int_Ext/ExtInt_FFK_Entrance_01_01.prefab
-  artifactKey: Guid(a1c30a26aa98a394b83668e45d9044be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Int_Ext/ExtInt_FFK_Entrance_01_01.prefab using Guid(a1c30a26aa98a394b83668e45d9044be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5bdb15c1c4cf9a66bd535f8eeaf7bf') in 0.008726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.360545 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Leather_01.mat
-  artifactKey: Guid(32032d56aec3af241ae80a544319f7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Leather_01.mat using Guid(32032d56aec3af241ae80a544319f7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcbb79349061a57a112cbaa8aa083bc') in 0.015151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_POS_Display_01.mat
-  artifactKey: Guid(1c691715df2c75649babacc6f27c3c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_POS_Display_01.mat using Guid(1c691715df2c75649babacc6f27c3c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208c5ae24ace08db1a849b68bb62db4e') in 0.016404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Wood_01.mat
-  artifactKey: Guid(a27fe7f6d7e0c214b85d14c14dff9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Wood_01.mat using Guid(a27fe7f6d7e0c214b85d14c14dff9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbed9011c512edc819faae54a00ffc81') in 0.014672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.026001 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Fire/Fire_Add_02.mat
-  artifactKey: Guid(0fdd751cd86106446afa0dc09e0eeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Fire/Fire_Add_02.mat using Guid(0fdd751cd86106446afa0dc09e0eeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035f45f5675ebf67f3058e2a99a1ce4f') in 0.023228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Fried_01.mat
-  artifactKey: Guid(8b596efa55cd6d1479c5ab73bd143dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Fried_01.mat using Guid(8b596efa55cd6d1479c5ab73bd143dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710e26976f7c55e92ccd5d385d64f276') in 0.011650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/Int_BS_01.mat
-  artifactKey: Guid(f03383d98b6709647991c50d409cf0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/Int_BS_01.mat using Guid(f03383d98b6709647991c50d409cf0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598a275476be03a456e9c0e3f798d918') in 0.011699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/Int_RR_01.mat
-  artifactKey: Guid(b61458ebb19004843af57f63626d7f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/Int_RR_01.mat using Guid(b61458ebb19004843af57f63626d7f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482dea47e3470f45f391cb3b3a266630') in 0.011684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Panel_01.mat
-  artifactKey: Guid(0dc30470004dae846a55ed5379ef2239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Panel_01.mat using Guid(0dc30470004dae846a55ed5379ef2239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c76f4dd42c01e07ab2cd37dd9924b53') in 0.013133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.422327 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Soap.mat
-  artifactKey: Guid(c822a288072f2c7478063b318d9f9534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Soap.mat using Guid(c822a288072f2c7478063b318d9f9534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4645451e7678b2fee9bc46af1797f25c') in 0.104533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.558885 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Divider/FFK_Divider_03_01_01.prefab
-  artifactKey: Guid(6475c5ebe5d06934496f4fd62a8d10f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Divider/FFK_Divider_03_01_01.prefab using Guid(6475c5ebe5d06934496f4fd62a8d10f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc3ab23422ece507b010fa55b71280c') in 0.177840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Seating/FFK_Stool_03_02.prefab
-  artifactKey: Guid(4bb2a81fa1ac56b4a9a5c0aee917bd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Seating/FFK_Stool_03_02.prefab using Guid(4bb2a81fa1ac56b4a9a5c0aee917bd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440b108f0bccbb0b9a7c97b4f4dfbe63') in 0.036566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Seating/FFK_Stool_02_02.prefab
-  artifactKey: Guid(bd6afbd0ba4210249ae73eb0f02c8018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Seating/FFK_Stool_02_02.prefab using Guid(bd6afbd0ba4210249ae73eb0f02c8018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af7cb95e62e7ee772bceeecb7e11992') in 0.011911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Tables/FFK_Table_03_01.prefab
-  artifactKey: Guid(fefcb4654550a5647a78b1ef345db793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Tables/FFK_Table_03_01.prefab using Guid(fefcb4654550a5647a78b1ef345db793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9127c3c0f8828d13696120a59bd81652') in 0.008682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Seating/FFK_Stool_02_01.prefab
-  artifactKey: Guid(46ff4ab664fcb354db17f4c1f46ef600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Seating/FFK_Stool_02_01.prefab using Guid(46ff4ab664fcb354db17f4c1f46ef600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6277a1bbc43700ef30a08e2eea5060be') in 0.010797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Tables/FFK_Table_04_01.prefab
-  artifactKey: Guid(a1f53b61442de404396cd7bebdfcc815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Tables/FFK_Table_04_01.prefab using Guid(a1f53b61442de404396cd7bebdfcc815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760e58bf786f1f9b1b875c0846e17817') in 0.009277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Electronics/FFK_Kiosk_ServicePlate_01_01.prefab
-  artifactKey: Guid(22083d3c7778346438a911c3b30e2116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Electronics/FFK_Kiosk_ServicePlate_01_01.prefab using Guid(22083d3c7778346438a911c3b30e2116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c04cfa9911cd44ad73f529e48ca18c3') in 0.016273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.837735 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Tables/FFK_Table_06_01.prefab
-  artifactKey: Guid(1b47fb0da35357d439b0e508d77d3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Tables/FFK_Table_06_01.prefab using Guid(1b47fb0da35357d439b0e508d77d3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4318b03b19000ab46fa18f2d4cff27d9') in 0.010897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/FountainCup_01.prefab
-  artifactKey: Guid(1dc2de87675d11142a9921d2ee2b12ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/FountainCup_01.prefab using Guid(1dc2de87675d11142a9921d2ee2b12ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2183db41eb88095ded8f1dbb8c34b43') in 0.008871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Misc/FFK_TrashBin_01_01.prefab
-  artifactKey: Guid(94b0b1569fa2f664daefecf0f4768ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Misc/FFK_TrashBin_01_01.prefab using Guid(94b0b1569fa2f664daefecf0f4768ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1c323843fd3cb17450555934e18d59') in 0.010864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.405362 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Filler_02.prefab
-  artifactKey: Guid(586efc4ccee24ca4883a7542f1e326bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Filler_02.prefab using Guid(586efc4ccee24ca4883a7542f1e326bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a42cf1cc652cb265a69f21e36a6de53') in 0.011234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Wall_01.prefab
-  artifactKey: Guid(87b837bc5f2c7db4787b6fb7663c16d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Wall_01.prefab using Guid(87b837bc5f2c7db4787b6fb7663c16d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a70d6b38c6dd941cd4a0356813d5fd') in 0.013177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Pillar_4x4.prefab
-  artifactKey: Guid(c83e0dcf64994e249a7357b1eb31da5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Pillar_4x4.prefab using Guid(c83e0dcf64994e249a7357b1eb31da5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4552a5c653876291f8bda4a4c8239c') in 0.013388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.071112 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Filler_02.prefab
-  artifactKey: Guid(da76ff28749b4d54ab63d4533af0b4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Filler_02.prefab using Guid(da76ff28749b4d54ab63d4533af0b4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc95faec6ce10ad01cbbbc6e0d6b10c8') in 0.012908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Door_01.prefab
-  artifactKey: Guid(62bd457adfa663b4b8de2903bb4c8006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Door_01.prefab using Guid(62bd457adfa663b4b8de2903bb4c8006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae197313897ef1b90ee49df0562e944') in 0.015321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_02.prefab
-  artifactKey: Guid(e865b35190d61134389351f1fb9a589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_02.prefab using Guid(e865b35190d61134389351f1fb9a589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb31f39cf97a9d3d21b917a9888c4f1') in 0.013150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.570530 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Frame_02.prefab
-  artifactKey: Guid(6b0fe008d0f2fd649ba26243e4ef0ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Frame_02.prefab using Guid(6b0fe008d0f2fd649ba26243e4ef0ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d94f23ed8d9ee363cdaa3a57a65bade') in 0.010753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Floors Walls Ceiling Doors/Int_FFK_01_Filler_03.prefab
-  artifactKey: Guid(e79ee9a2f2943cd4f82bd7e113e7fb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Floors Walls Ceiling Doors/Int_FFK_01_Filler_03.prefab using Guid(e79ee9a2f2943cd4f82bd7e113e7fb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5c4a31c1b6526673e79ade9a521f54') in 0.016466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Floors Walls Ceiling Doors/Int_FFK_01_Pillar_1x1.prefab
-  artifactKey: Guid(daf771e386ae656448a07b80e089a424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Floors Walls Ceiling Doors/Int_FFK_01_Pillar_1x1.prefab using Guid(daf771e386ae656448a07b80e089a424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71effd0e3a85cf273649e0a87d30272') in 0.013471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.352014 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Floors Walls Ceiling Doors/Int_FFK_01_Wall_Double_01.prefab
-  artifactKey: Guid(edd93407c37e4eb4d853936a7d476ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Floors Walls Ceiling Doors/Int_FFK_01_Wall_Double_01.prefab using Guid(edd93407c37e4eb4d853936a7d476ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f3196934bce3aa1a934c644c580ed3') in 0.015959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Walls/Int_RR_01_pillar_2x2.prefab
-  artifactKey: Guid(b17effefd1c1da643888570fb5635416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Walls/Int_RR_01_pillar_2x2.prefab using Guid(b17effefd1c1da643888570fb5635416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75e66f383b76af075252524e0a3ed40') in 0.017642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors/Int_RR_DoorFrame_01_Man.prefab
-  artifactKey: Guid(229639aed4129534fa69a11f5305b94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors/Int_RR_DoorFrame_01_Man.prefab using Guid(229639aed4129534fa69a11f5305b94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9af5e2d728ace9bce66511a343b196') in 0.009998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors/Int_RR_DoorFrame_01_Unisex.prefab
-  artifactKey: Guid(5f635d348fad9f742a95c45e8aceda58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors/Int_RR_DoorFrame_01_Unisex.prefab using Guid(5f635d348fad9f742a95c45e8aceda58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0579adb9590a7ada10ef98f74e187c') in 0.014570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Signs/RR_Restroom_Woman_Sign.prefab
-  artifactKey: Guid(e44a81cddb13cac4d8ad43dcfcb329b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Signs/RR_Restroom_Woman_Sign.prefab using Guid(e44a81cddb13cac4d8ad43dcfcb329b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5ee5e5887c52f6a218d9f4e2050135') in 0.006393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt/IntExt_BA_GlassFrame_01.prefab
-  artifactKey: Guid(8a4a119fc2ad9fa40817bd6773fe107a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt/IntExt_BA_GlassFrame_01.prefab using Guid(8a4a119fc2ad9fa40817bd6773fe107a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f566df92599f247b4d2bb5b106c9fdb8') in 0.008961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Fixtures/RR_SoapDispenser_01.prefab
-  artifactKey: Guid(912b5bb11c24b3842b28157f23895c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Fixtures/RR_SoapDispenser_01.prefab using Guid(912b5bb11c24b3842b28157f23895c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f775d9ddf9f6097cfe591849e4080cb7') in 0.163207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Nugget_06.prefab
-  artifactKey: Guid(6b923db1b9e141349adbc759414faed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Nugget_06.prefab using Guid(6b923db1b9e141349adbc759414faed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20865d0f8feb611b32ab19e6555f923') in 0.006506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Fixtures/RR_MirrorFrame_01.prefab
-  artifactKey: Guid(252461d3f6f63ab4893c8eb882ee2be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Fixtures/RR_MirrorFrame_01.prefab using Guid(252461d3f6f63ab4893c8eb882ee2be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb305874487867e32fbe24675a7dcd7') in 0.006691 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002878 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\MyGitHub\Hide-SeekMultiPlayer\Hide&Seek-MultiPlayer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\MyGitHub\Hide-SeekMultiPlayer\Hide&Seek-MultiPlayer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.740 seconds
-Domain Reload Profiling:
-	ReloadAssembly (741ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (567ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (229ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (261ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (156ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (184ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3179 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (1.3 MB). Loaded Objects now: 3710.
-Memory consumption went from 122.3 MB to 121.0 MB.
-Total: 2.772700 ms (FindLiveObjects: 0.169900 ms CreateObjectMapping: 0.076300 ms MarkObjects: 2.267400 ms  DeleteObjects: 0.257700 ms)
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.3 MB). Loaded Objects now: 3663.
+Memory consumption went from 120.4 MB to 119.0 MB.
+Total: 2.412800 ms (FindLiveObjects: 0.172700 ms CreateObjectMapping: 0.107800 ms MarkObjects: 1.914500 ms  DeleteObjects: 0.216900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -587,6 +168,246 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 55266.510600 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/Building Floor Tile - 01 - normal.png
+  artifactKey: Guid(c3da4c855c1bfff4f9690290628f7f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/Building Floor Tile - 01 - normal.png using Guid(c3da4c855c1bfff4f9690290628f7f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f807380a8e36b5db7c7386a1dc9da2') in 0.087393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.514783 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/Materials/Floor.mat
+  artifactKey: Guid(45846a73437f5064eae6e84bc98fc8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/Materials/Floor.mat using Guid(45846a73437f5064eae6e84bc98fc8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db93f1c8ad4e953cc52e87b073c3a42b') in 0.039539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1053.295484 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Floors Walls Ceiling Doors
+  artifactKey: Guid(7ee8c7f5706126a49833fe07772a2d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Floors Walls Ceiling Doors using Guid(7ee8c7f5706126a49833fe07772a2d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00897682812c949390a21f4310ca2940') in 0.002156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.692901 seconds.
+  path: Assets/Brick Project Studio/Materials
+  artifactKey: Guid(6dd6cb9cfa1de6a47a42705039ca4078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Materials using Guid(6dd6cb9cfa1de6a47a42705039ca4078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e63f56e161d4dff1ac7d2b6536fea7b') in 0.001868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.845695 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit
+  artifactKey: Guid(779ee6120f1cf6741bb12683f81825d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit using Guid(779ee6120f1cf6741bb12683f81825d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189215dc3c22f74f38812e849d5d0acd') in 0.002305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.105381 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs
+  artifactKey: Guid(cc39acf2acaed994a8169effabca20b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs using Guid(cc39acf2acaed994a8169effabca20b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f2f5c6e576cc017bf90c2a9d78a666') in 0.001697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.065485 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit
+  artifactKey: Guid(05363b88e1e33b44fbe43896bf4804ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit using Guid(05363b88e1e33b44fbe43896bf4804ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d8f63e553564e9467ca4d8f0cec85b') in 0.001786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.746260 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Counter Top
+  artifactKey: Guid(8ac778c08ef9d4b4e9b7be9406d0e45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Counter Top using Guid(8ac778c08ef9d4b4e9b7be9406d0e45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080b7d9a78dec6956d859d9d7ea87716') in 0.001475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.257979 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Divider
+  artifactKey: Guid(e06443e7eb71bcd438dd349c78129225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Divider using Guid(e06443e7eb71bcd438dd349c78129225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b8814a9603dc1961c61f7e448d6409') in 0.001637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.110249 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Int_Ext
+  artifactKey: Guid(a0815ec783dd4b54e8365f488fc846ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Int_Ext using Guid(a0815ec783dd4b54e8365f488fc846ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7882346bfeb34d0843db3ba28791ed53') in 0.010793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.911002 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture
+  artifactKey: Guid(b9a9811ae08674740ac9922dd32e1065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture using Guid(b9a9811ae08674740ac9922dd32e1065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99b2140432b183af4e33a9154dbe11d') in 0.001907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.687710 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Misc
+  artifactKey: Guid(4af38edaa8fefc643a051d0356b7116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Misc using Guid(4af38edaa8fefc643a051d0356b7116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f8be978544b6ccbfb14cf995238baa') in 0.001570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.208562 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Seating
+  artifactKey: Guid(bc803723c4001b243b0c3d365265b72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Seating using Guid(bc803723c4001b243b0c3d365265b72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c58e5ec0784164ec4d022e7088ea2f3') in 0.002165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.949640 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Tables
+  artifactKey: Guid(9acaf2701f0b5d6439cf682e01e8b815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Tables using Guid(9acaf2701f0b5d6439cf682e01e8b815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e60f0b0a3983bbffc41f377241c587') in 0.002191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 137.745765 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Styles/WaitingSignInPanel.uss
+  artifactKey: Guid(90945345530e7174eb4f0575a0bec0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Styles/WaitingSignInPanel.uss using Guid(90945345530e7174eb4f0575a0bec0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842a6c2ab309147156c6854d8d9b7c4d') in 0.010073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.compute
+  artifactKey: Guid(92c63830cd50c0b4fbb8233613839958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.compute using Guid(92c63830cd50c0b4fbb8233613839958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e4100e0bbea4963bbda73643240875') in 0.003741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.719047 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_WallPaper_01_A.png
+  artifactKey: Guid(236b7f87d7816804f8fd41792baaf509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_WallPaper_01_A.png using Guid(236b7f87d7816804f8fd41792baaf509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af6775065cd134eaeb04a4fc8959a67') in 0.009819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 205.149911 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Walls
+  artifactKey: Guid(797f2ae9854852c4896799f06cbb86fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Walls using Guid(797f2ae9854852c4896799f06cbb86fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c380874a22496329d17675f04099fd') in 0.002844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.385786 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit
+  artifactKey: Guid(7650939902e4fdb4988d94990fbc7bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit using Guid(7650939902e4fdb4988d94990fbc7bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209262b20d1322113f9a0a0292b01e73') in 0.001872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.586132 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors
+  artifactKey: Guid(e30097d96c65cdf4caf6ce531be8071a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors using Guid(e30097d96c65cdf4caf6ce531be8071a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724031d1f9100fa6ae970cf76976c0b3') in 0.002242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.666870 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Stall
+  artifactKey: Guid(94b4017f1e3888745a73e36324812a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Stall using Guid(94b4017f1e3888745a73e36324812a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429f0163ff84c1ae10fe5e868431b123') in 0.002174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 750.940072 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/ceiling.png
+  artifactKey: Guid(2a909c6b0c3249d4b8fc74ae5d6d52dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/ceiling.png using Guid(2a909c6b0c3249d4b8fc74ae5d6d52dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fb246dae9ee2c9a59fcf418c9a6caa') in 0.015008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.603569 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Floors Ceilings
+  artifactKey: Guid(8aabb977e9ba2c642a39cd81456c2e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Floors Ceilings using Guid(8aabb977e9ba2c642a39cd81456c2e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240bf8e1a2c5458d382dc1b4f42b736d') in 0.002242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 273.846830 seconds.
+  path: Assets/MeshCombiner/Scripts
+  artifactKey: Guid(a2a7540ec4650c74fbbf276d68fcb924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshCombiner/Scripts using Guid(a2a7540ec4650c74fbbf276d68fcb924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d084f42a9854f152aa0fba6c0074a7') in 0.001451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.264017 seconds.
+  path: Assets/MeshCombiner
+  artifactKey: Guid(3cf7400491216964086f00a39b92bbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshCombiner using Guid(3cf7400491216964086f00a39b92bbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb54c9e0d170acbb19cecf78ccde120e') in 0.001771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1132.328730 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_fonebevel.png
+  artifactKey: Guid(44b3938fe3b038b4abdeedb29d7af8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_fonebevel.png using Guid(44b3938fe3b038b4abdeedb29d7af8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1f6b88d7769a6147f0b33e5e1b5bfc') in 0.008088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_LampGrate_A.png
+  artifactKey: Guid(bbc6cc84fb4d95241a9a136ddc2eeb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_LampGrate_A.png using Guid(bbc6cc84fb4d95241a9a136ddc2eeb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f32d1983be1fee73bebad38923bc607') in 0.011965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_RoughMetal_01_N.png
+  artifactKey: Guid(5a2c370255776694db01af89fcd9b4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_RoughMetal_01_N.png using Guid(5a2c370255776694db01af89fcd9b4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6311552182d2a39a1ef6f65cf8d9bda3') in 0.025250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_Wood_02_H.png
+  artifactKey: Guid(9123ee45a97f9894294ab0023d67fe76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_Wood_02_H.png using Guid(9123ee45a97f9894294ab0023d67fe76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcf502506c3c9ade92093e964b17c69') in 0.006013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_Wood_01_N.png
+  artifactKey: Guid(0fc735b993adf4d41a1715cf5a12926d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_Wood_01_N.png using Guid(0fc735b993adf4d41a1715cf5a12926d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edf28970039abf5d32e996e7b536a25') in 0.006000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_Stone_01_N.png
+  artifactKey: Guid(d0f5751404e0ad44ebdb7b78d7ada947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_Stone_01_N.png using Guid(d0f5751404e0ad44ebdb7b78d7ada947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b6638d7e6ad4b23d0d1f6c845157e2') in 0.007268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_Wood_02_N.png
+  artifactKey: Guid(bdcbb6abf97582341b59fdc6ce130227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_Wood_02_N.png using Guid(bdcbb6abf97582341b59fdc6ce130227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6b37b1b5413c37bd119326b1aafaca') in 0.006724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/INT_FFK_01_N.png
+  artifactKey: Guid(46cb7cfa9933cae47a42b73eb1b0add0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/INT_FFK_01_N.png using Guid(46cb7cfa9933cae47a42b73eb1b0add0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192f97309c8f045fcb1f9c625940f1a7') in 0.009852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_ServicePlate_01_A.png
+  artifactKey: Guid(ca0356835f5fce648828a00d44e29d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_ServicePlate_01_A.png using Guid(ca0356835f5fce648828a00d44e29d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec799ac31e9e7d92e579c3a5f4b6ed85') in 0.007507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_NumberPad.png
+  artifactKey: Guid(8aff9545a76a33d468b7b9de685259b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_NumberPad.png using Guid(8aff9545a76a33d468b7b9de685259b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b7e864bd5a79f2ade2f08aa6b2e0b0') in 0.005536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/INT_FFK_01_A.png
+  artifactKey: Guid(fbe715d597a4e264dba3b56ded6f2a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/INT_FFK_01_A.png using Guid(fbe715d597a4e264dba3b56ded6f2a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5535cdc16e8ee6d4975ed427397c1778') in 0.007201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_POS_Display_02.png
+  artifactKey: Guid(2735c1676b70f6946ad28344dfdbe779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_POS_Display_02.png using Guid(2735c1676b70f6946ad28344dfdbe779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0013056aca01d76a1daf32d18dd525fe') in 0.006924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_MR.RightFountain.png
+  artifactKey: Guid(aebcfa4bb00f1594c94673e73cea77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_MR.RightFountain.png using Guid(aebcfa4bb00f1594c94673e73cea77a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32c5f27614ab40b09a2ba830a17bc22') in 0.006753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/Fried_01_N.png
+  artifactKey: Guid(4e77517ca4e632743bae541a7179a18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/Fried_01_N.png using Guid(4e77517ca4e632743bae541a7179a18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76c0b1d9081d8a39c69fbcfae30a473') in 0.007555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_Wood_02_A.png
+  artifactKey: Guid(ba12d857265e4cf43a25eb058fc77c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Textures/FFK_Wood_02_A.png using Guid(ba12d857265e4cf43a25eb058fc77c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd8bd290c49c2c6efb28fab2d01bea1') in 0.005789 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
