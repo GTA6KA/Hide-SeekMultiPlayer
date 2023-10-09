@@ -1,9 +1,10 @@
-using System.ComponentModel;
 using UnityEngine;
 
 public class PlayerGameBehaviour : MonoCache
 {
-    [SerializeField] private Camera _camera;
+
+    [SerializeField] private float _maxDistanceOfRay;
+    Camera _camera;
 
     private MeshFilter _myMeshFilter;
     private MeshRenderer _myMeshRenderer;
@@ -11,6 +12,7 @@ public class PlayerGameBehaviour : MonoCache
     private Vector2 _cameraRayDirection;
     private void Start()
     {
+        _camera = Camera.main;
         _myMeshFilter = GetComponent<MeshFilter>();
         _myMeshRenderer = GetComponent<MeshRenderer>();
         _cameraRayDirection = new Vector2(Screen.width / 2, Screen.height / 2);
@@ -27,7 +29,7 @@ public class PlayerGameBehaviour : MonoCache
             {
                 Ray ray = _camera.ScreenPointToRay(_cameraRayDirection);
 
-                if (Physics.Raycast(ray, out RaycastHit hit))
+                if (Physics.Raycast(ray, out RaycastHit hit, _maxDistanceOfRay))
                 {
                     if (hit.transform.GetComponent<TestChangeMesh>())
                     {
