@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using UnityEngine;
 
 public class PlayerGameBehaviour : MonoCache
@@ -16,6 +17,10 @@ public class PlayerGameBehaviour : MonoCache
     }
 
     public override void OnTick()
+    {
+        ChangeModelBehaviour();
+    }
+    private void ChangeModelBehaviour()
     {
         {
             if (Input.GetMouseButtonDown(0))
