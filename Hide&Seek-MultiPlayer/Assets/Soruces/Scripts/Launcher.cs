@@ -1,12 +1,22 @@
 using UnityEngine;
 using Photon.Pun;
 using TMPro;
+using System.Collections.Generic;
+using Photon.Realtime;
+using Unity.VisualScripting;
 
 public class Launcher : MonoBehaviourPunCallbacks
 {
+    public static Launcher Instance;
+    private void Awake() => Instance = this;
+
+
     [SerializeField] TMP_InputField _roomNameInputField;
     [SerializeField] TMP_Text _errorText;
     [SerializeField] TMP_Text _roomNameText;
+    [Space]
+    [SerializeField] Transform _roomListContent;
+    [SerializeField] GameObject _roomListItemPregab;
     private void Start()
     {
         Debug.Log("Connecting to Master");
@@ -38,6 +48,24 @@ public class Launcher : MonoBehaviourPunCallbacks
     {
         _errorText.text = "Room Creation Failed: " + message;
         MenuManager.Instance.OpenMenu("error");
+    }
+    public override void OnRoomListUpdate(List<RoomInfo> roomList)
+    {
+        foreach(Transform trans in _roomListContent)
+        {
+            Destroy(trans.gameObject);
+        }
+
+        for (int i = 0; i < roomList.Count; i++)
+        {
+            Instantiate(_roomListItemPregab, _roomListContent).GetComponent<RoomListItem>().SetUp(roomList[i]);
+        }
+    }
+
+    public void JoinRoom(RoomInfo info)
+    {
+        PhotonNetwork.JoinRoom(info.Name);
+        MenuManager.Instance.OpenMenu("loading");
     }
 
     public void LeaveRoom()
