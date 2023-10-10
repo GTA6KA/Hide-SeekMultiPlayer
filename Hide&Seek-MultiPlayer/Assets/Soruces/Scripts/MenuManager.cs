@@ -1,17 +1,42 @@
-using Photon.Pun;
-using Photon.Realtime;
 using UnityEngine;
-using UnityEngine.UI;
-public class MenuManager : MonoBehaviourPunCallbacks
+
+public class MenuManager : MonoBehaviour
 {
-    [SerializeField] private InputField _createInput;
-    [SerializeField] private InputField _joinInput;
-    public void CreateRoom()
+    public static MenuManager Instance;
+
+    [SerializeField] Menu[] menus;
+
+    private void Awake()
     {
-        RoomOptions roomOptions = new RoomOptions();
-        roomOptions.MaxPlayers = 20;
-        PhotonNetwork.CreateRoom(_createInput.text, roomOptions);
+        Instance = this;
     }
-    public void JoinRoom() => PhotonNetwork.JoinRoom(_joinInput.text);
-    public override void OnJoinedRoom() => PhotonNetwork.LoadLevel("GameScene");
+    public void OpenMenu(string menuName)
+    {
+        for (int i = 0; i < menus.Length; i++)
+        {
+            if (menus[i].menuName == menuName)
+            {
+                OpenMenu(menus[i]);
+            }
+            else if (menus[i].open)
+            {
+                CloseMenu(menus[i]);
+            }
+        }
+    }
+    public void OpenMenu(Menu menu)
+    {
+        for (int i = 0; i < menus.Length; i++)
+        {
+            if (menus[i].open)
+            {
+                CloseMenu(menus[i]);
+            }
+        }
+        menu.Open();
+    }
+    public void CloseMenu(Menu menu)
+    {
+        menu.Close();
+    }
 }
