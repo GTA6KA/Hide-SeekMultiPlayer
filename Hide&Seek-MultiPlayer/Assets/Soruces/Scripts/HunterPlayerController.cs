@@ -7,22 +7,13 @@ using UnityEngine;
 
 public class HunterPlayerController : MonoBehaviour
 {
-    [SerializeField] private GameObject _cameraHolder;
     [SerializeField] private float _mouseSensitivity, _runSpeed, _walkSpeed, _jumpForce, _smoothTime;
 
-    private float _verticalLookRotation;
-
-    private Vector3 _smoothMoveVelocity;
-    private Vector3 _moveAmount;
-
-    private Rigidbody _rigidBody;
-     bool _isGrounded;
-
+    private Rigidbody _rigidbody;
     private PhotonView PV;
-
     private void Awake()
     {
-        _rigidBody = GetComponent<Rigidbody>();
+        _rigidbody = GetComponent<Rigidbody>();
         PV = GetComponent<PhotonView>();
     }
     private void Start()
@@ -37,36 +28,40 @@ public class HunterPlayerController : MonoBehaviour
     {
         if (!PV.IsMine) return;
     
-        PlayerCameraController();
+        //PlayerCameraController();
         PlayerMovement();
-        PlayerJump();
+        //PlayerJump();
     }
-    private void FixedUpdate()
-    {
-        _rigidBody.MovePosition(_rigidBody.position + transform.TransformDirection(_moveAmount) * Time.fixedDeltaTime);
-    }
+    //private void FixedUpdate()
+    //{
+    //    _rigidBody.MovePosition(_rigidBody.position + transform.TransformDirection(_moveAmount) * Time.fixedDeltaTime);
+    //}
     private void PlayerMovement()
     {
-        Vector3 moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
+         float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+        Vector3 temp = (((transform.right * horizontal) + (transform.forward * vertical)) * _walkSpeed);
+        _rigidbody.velocity = new Vector3(temp.x, _rigidbody.velocity.y, temp.z);
 
-        _moveAmount = Vector3.SmoothDamp(_moveAmount, moveDir * (Input.GetKey(KeyCode.LeftShift) ? _runSpeed : _walkSpeed), ref _smoothMoveVelocity, _smoothTime);     
+        if (_rigidbody.velocity == new Vector3(_rigidbody.velocity.x, 0, _rigidbody.velocity.z))
+        {
+            if (Input.GetKey(KeyCode.Space))
+            {
+                _rigidbody.velocity = new Vector3(_rigidbody.velocity.x, _jumpForce, _rigidbody.velocity.z);
+            }
+        }
     }
-    private void PlayerJump()
-    {
-        if (Input.GetKeyDown(KeyCode.Space) && _isGrounded) _rigidBody.AddForce(transform.up * _jumpForce);
-    }
-    private void PlayerCameraController()
-    {
-        transform.Rotate(Vector3.up * Input.GetAxisRaw("Mouse X") * _mouseSensitivity);
+    //private void PlayerJump()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.Space) && _isGrounded) _rigidBody.AddForce(transform.up * _jumpForce);
+    //}
+    //private void PlayerCameraController()
+    //{
+    //    transform.Rotate(Vector3.up * Input.GetAxisRaw("Mouse X") * _mouseSensitivity);
 
-        _verticalLookRotation += Input.GetAxisRaw("Mouse Y") * _mouseSensitivity;
-        _verticalLookRotation = Mathf.Clamp(_verticalLookRotation, -90, 90);
+    //    _verticalLookRotation += Input.GetAxisRaw("Mouse Y") * _mouseSensitivity;
+    //    _verticalLookRotation = Mathf.Clamp(_verticalLookRotation, -90, 90);
 
-        _cameraHolder.transform.localEulerAngles = Vector3.left * _verticalLookRotation;
-    }
-    
-    public void SetGroundedState(bool _grounded)
-    {
-        _isGrounded = _grounded;
-    }
+    //    _cameraHolder.transform.localEulerAngles = Vector3.left * _verticalLookRotation;
+    //}
 }
