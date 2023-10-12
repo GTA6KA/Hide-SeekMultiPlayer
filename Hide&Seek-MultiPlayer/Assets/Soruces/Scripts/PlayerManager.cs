@@ -3,14 +3,9 @@ using Photon.Pun;
 using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
-    PhotonView PV;
+    private PhotonView PV;
 
-    private void Awake()
-    {
-        PV = GetComponent<PhotonView>();
-    }
-
-
+    private void Awake() => PV = GetComponent<PhotonView>();
     private void Start()
     {
         if (PV.IsMine)
