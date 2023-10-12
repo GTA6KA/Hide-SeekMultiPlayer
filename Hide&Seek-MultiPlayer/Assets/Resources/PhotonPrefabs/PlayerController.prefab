@@ -140,8 +140,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mouseSensitivity: 50
   _runSpeed: 6
-  _walkSpeed: 5
-  _jumpForce: 8
+  _walkSpeed: 8
+  _jumpForce: 5
   _smoothTime: 0.15
 --- !u!54 &8843757774844170726
 Rigidbody:
