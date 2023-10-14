@@ -10,7 +10,7 @@ public class HunterPlayerController : MonoBehaviour
     [SerializeField] private float _mouseSensitivity, _runSpeed, _walkSpeed, _jumpForce, _smoothTime;
 
     private Rigidbody _rigidbody;
-    private PhotonView PV;
+    PhotonView PV;
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
