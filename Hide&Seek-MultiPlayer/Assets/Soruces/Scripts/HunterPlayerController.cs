@@ -19,7 +19,7 @@ public class HunterPlayerController : MonoBehaviour
     private void Start()
     {
         if (!PV.IsMine)
-        {
+        {       
             Destroy(GetComponentInChildren<Camera>().gameObject);  
         }
     }
