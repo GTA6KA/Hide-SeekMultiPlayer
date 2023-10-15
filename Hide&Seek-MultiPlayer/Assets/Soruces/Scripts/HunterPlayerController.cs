@@ -1,16 +1,22 @@
 using Photon.Pun;
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class HunterPlayerController : MonoBehaviour
 {
-    [SerializeField] private float _mouseSensitivity, _runSpeed, _walkSpeed, _jumpForce, _smoothTime;
+    [SerializeField] private float _walkSpeed;
+    [SerializeField] private float _jumpForce;
+    [SerializeField] private float _distanceCheckToGround;
+    [SerializeField] private float _maxDistanceOfRay;
+    [SerializeField] private LayerMask _ground;
+
+    private Vector2 _cameraRayDirection;
 
     private Rigidbody _rigidbody;
+    private bool _isShotReload;
+
     PhotonView PV;
+    Camera _camera;
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
@@ -19,49 +25,72 @@ public class HunterPlayerController : MonoBehaviour
     private void Start()
     {
         if (!PV.IsMine)
-        {       
-            Destroy(GetComponentInChildren<Camera>().gameObject);  
+        {
+            Destroy(GetComponentInChildren<Camera>().gameObject);
+            Destroy(_rigidbody);
         }
+        _camera = Camera.main;
+        _cameraRayDirection = new Vector2(Screen.width / 2, Screen.height / 2);
     }
 
     private void Update()
     {
         if (!PV.IsMine) return;
-    
-        //PlayerCameraController();
         PlayerMovement();
-        //PlayerJump();
+        PlayerJump();
+        PlayerShotMethod();
+        StartCoroutine(ShotReload());
     }
-    //private void FixedUpdate()
-    //{
-    //    _rigidBody.MovePosition(_rigidBody.position + transform.TransformDirection(_moveAmount) * Time.fixedDeltaTime);
-    //}
+
+    private void FixedUpdate()
+    {
+        if (!PV.IsMine) return;
+    }
+
     private void PlayerMovement()
     {
-         float horizontal = Input.GetAxis("Horizontal");
+        float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
         Vector3 temp = (((transform.right * horizontal) + (transform.forward * vertical)) * _walkSpeed);
         _rigidbody.velocity = new Vector3(temp.x, _rigidbody.velocity.y, temp.z);
+    }
 
-        if (_rigidbody.velocity == new Vector3(_rigidbody.velocity.x, 0, _rigidbody.velocity.z))
+    private void PlayerShotMethod()
+    {
+        if (Input.GetMouseButtonDown(0))
         {
-            if (Input.GetKey(KeyCode.Space))
+            if (_isShotReload == true) return;
+
+            Ray ray = _camera.ScreenPointToRay(_cameraRayDirection);
+
+            if (Physics.Raycast(ray, out RaycastHit hit, _maxDistanceOfRay))
             {
-                _rigidbody.velocity = new Vector3(_rigidbody.velocity.x, _jumpForce, _rigidbody.velocity.z);
+                if (hit.transform.GetComponent<TestChangeMesh>())
+                {
+                    _isShotReload = true;
+                    Destroy(gameObject);
+                }
             }
         }
     }
-    //private void PlayerJump()
-    //{
-    //    if (Input.GetKeyDown(KeyCode.Space) && _isGrounded) _rigidBody.AddForce(transform.up * _jumpForce);
-    //}
-    //private void PlayerCameraController()
-    //{
-    //    transform.Rotate(Vector3.up * Input.GetAxisRaw("Mouse X") * _mouseSensitivity);
+    private IEnumerator ShotReload()
+    {
+        _isShotReload = true;
+        yield return new WaitForSeconds(1f);
+        _isShotReload = false;
+    }
 
-    //    _verticalLookRotation += Input.GetAxisRaw("Mouse Y") * _mouseSensitivity;
-    //    _verticalLookRotation = Mathf.Clamp(_verticalLookRotation, -90, 90);
-
-    //    _cameraHolder.transform.localEulerAngles = Vector3.left * _verticalLookRotation;
-    //}
+    private void PlayerJump()
+    {
+        if (Physics.Raycast(transform.position, Vector3.down, _distanceCheckToGround, _ground))
+        {
+            if (Input.GetKeyDown(KeyCode.Space)) _rigidbody.velocity = Vector3.up *  _jumpForce;   
+        }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawRay(transform.position, Vector3.down * _distanceCheckToGround);
+    }
 }
+

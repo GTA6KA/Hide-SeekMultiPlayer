@@ -24,20 +24,19 @@ public class PlayerGameBehaviour : MonoCache
     }
     private void ChangeModelBehaviour()
     {
+        if (Input.GetMouseButtonDown(0))
         {
-            if (Input.GetMouseButtonDown(0))
-            {
-                Ray ray = _camera.ScreenPointToRay(_cameraRayDirection);
+            Ray ray = _camera.ScreenPointToRay(_cameraRayDirection);
 
-                if (Physics.Raycast(ray, out RaycastHit hit, _maxDistanceOfRay))
+            if (Physics.Raycast(ray, out RaycastHit hit, _maxDistanceOfRay))
+            {
+                if (hit.transform.GetComponent<TestChangeMesh>())
                 {
-                    if (hit.transform.GetComponent<TestChangeMesh>())
-                    {
-                        if (hit.transform.TryGetComponent(out MeshRenderer meshRenderer)) _myMeshRenderer.materials = meshRenderer.materials;
-                        if (hit.transform.TryGetComponent(out MeshFilter meshFilter)) _myMeshFilter.mesh = meshFilter.mesh;
-                    }
+                    if (hit.transform.TryGetComponent(out MeshRenderer meshRenderer)) _myMeshRenderer.materials = meshRenderer.materials;
+                    if (hit.transform.TryGetComponent(out MeshFilter meshFilter)) _myMeshFilter.mesh = meshFilter.mesh;
                 }
             }
         }
+
     }
 }
