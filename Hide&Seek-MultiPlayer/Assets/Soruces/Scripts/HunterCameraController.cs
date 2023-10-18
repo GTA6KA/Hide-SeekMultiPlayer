@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class HunterCameraController : MonoBehaviour
@@ -10,10 +7,10 @@ public class HunterCameraController : MonoBehaviour
     private float _verticalLookRotation;
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked; 
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
-    
+
     private void FixedUpdate()
     {
         float MouseX = Input.GetAxis("Mouse X") * _sesitivity * Time.deltaTime;

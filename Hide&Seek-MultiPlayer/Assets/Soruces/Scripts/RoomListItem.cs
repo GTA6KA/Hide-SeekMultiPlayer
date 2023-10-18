@@ -1,6 +1,4 @@
 using Photon.Realtime;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -15,9 +13,5 @@ public class RoomListItem : MonoBehaviour
         info = _info;
         text.text = info.Name;
     }
-
-    public void OnClick()
-    {
-        Launcher.Instance.JoinRoom(info);
-    }
+    public void OnClick() => Launcher.Instance.JoinRoom(info);   
 }
