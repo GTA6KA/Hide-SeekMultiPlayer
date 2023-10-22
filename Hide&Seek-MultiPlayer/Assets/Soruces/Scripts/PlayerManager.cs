@@ -4,26 +4,19 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     private PhotonView PV;
+    [SerializeField] private GameObject[] _players; 
 
     private void Awake() => PV = GetComponent<PhotonView>();
     private void Start()
     {
         if (PV.IsMine) CreateController();
-        if (!PV.IsMine) CreateAnotherController();
     }
 
     private void CreateController()
     {
         Transform spawnPoint = SpawnManager.Instance.GetSpawnPoint();
 
-        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerController"), spawnPoint.position, spawnPoint.rotation);          
+        PhotonNetwork.Instantiate(_players[Random.Range(0, _players.Length)].name, spawnPoint.position, spawnPoint.rotation);
         
-    }
-    private void CreateAnotherController()
-    {
-        Transform spawnPoint = SpawnManager.Instance.GetSpawnPoint();
-
-        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "BOX"), spawnPoint.position, spawnPoint.rotation);
-
     }
 }
