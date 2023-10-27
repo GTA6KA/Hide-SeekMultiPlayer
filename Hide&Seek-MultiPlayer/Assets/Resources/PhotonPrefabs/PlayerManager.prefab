@@ -67,8 +67,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 563ec8207b093cb4db6dfdfc4a355d4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _players:
+  _hunterPlayers:
   - {fileID: 3863049449961953157, guid: c29ece24594d61c43ab637c742fbf0bb, type: 3}
-  - {fileID: 1716392881922192895, guid: ebc81f80dc6c727408d25a1d4627f138, type: 3}
-  - {fileID: 1426657950943727580, guid: 3475434625843e04dbe72fa46beb749c, type: 3}
-  - {fileID: 7222085457441529513, guid: 699049d0e600ccc448c2ef188fc41a06, type: 3}
+  - {fileID: 3863049449961953157, guid: c29ece24594d61c43ab637c742fbf0bb, type: 3}
+  - {fileID: 3863049449961953157, guid: c29ece24594d61c43ab637c742fbf0bb, type: 3}
